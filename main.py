@@ -1,5 +1,4 @@
-import asyncio
-import cv2 as cv
+
 from capture import WindowCapture
 from utils import Utils
 import numpy as np
@@ -7,9 +6,8 @@ import os
 import keyboard
 import time
 from threading import Thread
-from playsound import playsound
 from pynput import keyboard
-
+import cv2 as cv
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 wincap = WindowCapture("Path of Exile")
